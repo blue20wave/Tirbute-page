@@ -1,0 +1,47 @@
+body{
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #333;
+}
+#main{
+  background-color: #eee;
+}
+#title {
+  font-size: 4rem;
+margin-bottom: 0;
+
+}
+p{
+  font-size: 1.3rem;
+}
+#img-div{
+  padding:10px;
+  background-color: white;
+  margin: 0;
+}
+img{
+  max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+  display: block;
+}
+#img-caption{
+      margin-top: 1rem;
+      font-size: 1rem;
+}
+#headline{
+  margin: 50px 0;
+}
+.list{
+  text-align: left;
+    max-width: 550px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+a{
+  color: #477ca7;
+}
+@media (max-width: 767px), (max-height: 440px)
+body {
+    min-width: 320px;}
